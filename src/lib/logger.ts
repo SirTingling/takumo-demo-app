@@ -29,3 +29,4 @@ export const logger = pino({
 export function createLogger(bindings: Record<string, unknown>) {
   return logger.child(bindings);
 }
+

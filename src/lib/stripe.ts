@@ -11,3 +11,4 @@ export const stripe: Stripe | null = config.stripe.secretKey
 if (!stripe) {
   log.warn('STRIPE_SECRET_KEY not configured — Stripe features disabled');
 }
+

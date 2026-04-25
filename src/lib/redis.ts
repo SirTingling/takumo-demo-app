@@ -14,3 +14,4 @@ if (redis) {
 } else {
   log.warn('REDIS_URL not configured — Redis features disabled');
 }
+

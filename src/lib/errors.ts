@@ -58,3 +58,4 @@ export class CircuitOpenError extends AppError {
     super(`Circuit breaker open for ${service}`, 'CIRCUIT_OPEN', 503);
   }
 }
+
