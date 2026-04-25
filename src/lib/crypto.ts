@@ -45,3 +45,4 @@ export function hmacSha256(data: string, key: string): string {
 export function randomBytes(length: number): string {
   return crypto.randomBytes(length).toString('hex');
 }
+

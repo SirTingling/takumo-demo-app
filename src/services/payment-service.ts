@@ -127,3 +127,4 @@ export async function processPayment(input: unknown): Promise<Payment> {
 export async function getPayment(paymentId: string): Promise<Payment | null> {
   return queryOne<Payment>('SELECT * FROM payments WHERE id = $1', [paymentId]);
 }
+

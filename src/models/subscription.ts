@@ -19,3 +19,4 @@ export const createSubscriptionSchema = z.object({
 });
 
 export type CreateSubscriptionInput = z.infer<typeof createSubscriptionSchema>;
+

@@ -160,3 +160,4 @@ export async function getUser(userId: string): Promise<Omit<User, 'passwordHash'
   const { passwordHash: _, ...safeUser } = user;
   return safeUser;
 }
+

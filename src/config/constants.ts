@@ -46,3 +46,4 @@ export const ACCOUNT_LOCKOUT = {
 
 export const CURRENCIES = ['usd', 'eur', 'gbp'] as const;
 export type Currency = (typeof CURRENCIES)[number];
+

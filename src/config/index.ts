@@ -73,3 +73,4 @@ function loadConfig() {
 
 export const config = loadConfig();
 export type Config = ReturnType<typeof loadConfig>;
+
