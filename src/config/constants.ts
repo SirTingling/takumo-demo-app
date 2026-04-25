@@ -1,3 +1,4 @@
+/** Standard HTTP status codes used across the API. */
 export const HTTP_STATUS = {
   OK: 200,
   CREATED: 201,
